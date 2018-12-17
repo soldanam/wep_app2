@@ -13,7 +13,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 public class LoginActivity extends AppCompatActivity {
-    final static String url = "http://10.0.2.2:3000/users/authenticate";
+    final static String url = "http://13.125.129.127:3000/users/authenticate";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

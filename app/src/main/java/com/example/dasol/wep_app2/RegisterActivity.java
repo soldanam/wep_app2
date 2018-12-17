@@ -15,7 +15,7 @@ import org.json.JSONObject;
 
 public class RegisterActivity extends AppCompatActivity {
 
-    final static String url = "http://10.0.2.2:3000/users/regi";
+    final static String url = "http://13.125.129.127:3000/users/regi";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
