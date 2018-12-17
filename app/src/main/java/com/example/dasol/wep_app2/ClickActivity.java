@@ -28,7 +28,7 @@ public class ClickActivity extends AppCompatActivity {
     private  int img;
     private  String name1;
     private  NumberPicker num;
-    final static String url = "http://13.125.129.127:3000/orders/ord";
+    final static String url = "http://13.125.129.127:3000/orders/order";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
