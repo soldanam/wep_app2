@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ClickActivity"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        >
+        <ImageView
+            android:id="@+id/img_prof"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_launcher_background" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_nm"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:autoSizeMaxTextSize="30dp"
+                android:paddingBottom="20dp"
+                android:paddingLeft="20dp"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv_cs"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingLeft="20dp"
+                android:textSize="20dp" />
+            <CheckBox
+                android:id="@+id/takeout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="Takeout" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="129dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+
+        <NumberPicker
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/num">
+
+        </NumberPicker>
+
+    </LinearLayout>
+
+    <TimePicker
+        android:id="@+id/time"
+        android:layout_width="match_parent"
+        android:layout_height="166dp"
+        android:timePickerMode="spinner"></TimePicker>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="주문하기"
+            android:id="@+id/order"
+            android:textColor="#ffff"
+            android:background="#1d809f"
+            />
+
+
+
+
+    </LinearLayout>
